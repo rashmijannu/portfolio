@@ -1,24 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-  <div class="container">
-    <div class="logo">Rashmi Chandana</div>
+  <header>
     <nav>
-      <a href="index.html" target="_blank">Home</a>
-      <a href="about.html" target="_blank">About</a>
-      <a href="projects.html" target="_blank">Projects</a>
-      <a href="experience.html" target="_blank">Experience</a>
-      <a href="contact.html" target="_blank">Contact</a>
-      <a href="resume.html" target="_blank">Resume</a>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Resume</a>
     </nav>
-  </div>
-</header>
+  </header>
 
+  <main>
+    <h1 style="text-align:center; padding: 1em;">My Projects</h1>
+
+    <section class="project">
+      <img src="assets/project1.jpg" alt="Project 1" />
+      <div>
+        <h2>Barter: A Peer-to-Peer Skill Exchange Platform (Jan 25- May 25)</h2>
+        <h4>TechStack: React | Node.js | MongoDB | ML</h4>
+       <p> <ol>
+            <li>Skill-Based Matchmaking: Connects users based on what they can teach and want to learn, enabling a fair skill exchange.</li>
+            <li>Provides chat, resource sharing, and session tracking to facilitate seamless peer-to-peer learning.</li>
+            <li>Community-Driven & Free: Removes monetary barriers, fostering a global community where knowledge is exchanged.</li>
+        </ol></p>
+      </div>
+    </section>
+
+    <section class="project">
+      <img src="assets/project2.png" alt="Project 2" />
+      <div>
+        <h2>Industrial Safety System (Jan 25- May 25)</h2>
+        <h4>TechStack: Hardware: ESP32 | Flame/Gas/Temp/Smoke Sensors | Buzzer | LED <br><br> Software: Firebase | Blynk | Twilio API | Arduino IDE</h4>
+        <p><ol>
+            <li>Hazard Detection: Uses sensors with ESP32 to monitor fire, gas, temperature, and smoke in real time.</li>
+            <li>Instant Alerts: Triggers buzzer, LED, and updates Firebase and Blynk for live alerts.</li>
+            <li>Emergency Response: Sends alerts to fire stations/hospitals via Twilio for quick action.</li>
+        </ol></p>
+      </div>
+    </section>
+
+    <section class="project">
+      <img src="assets/project3.jpg" alt="Project 3" />
+      <div>
+        <a href="https://github.com/rashmijannu/Secure-Email-Server-Deployment-with-Malware-Protection" target="_blank"><h2> Secure mail server deployment with malware protection (Nov 23- Mar 24)</h2></a>
+        <!-- <h2> Secure mail server deployment with malware protection (Nov 23- Mar 24)</h2> -->
+        <h4>TechStack: Postfix | Dovecot | ClamAV</h4>
+        <p> <ol>
+            <li>Built and deployed a secure Linux-based email server using Postfix and Dovecot with spam filtering, leveraging TCP/IP
+protocols</li>
+            <li>Implemented authentication via SPF, DKIM, and DMARC to prevent spoofing/phishing.</li>
+            <li>Integrated ClamAV for real-time malware scanning, improving system reliability.</li>
+        </ol></p>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
