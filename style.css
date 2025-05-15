@@ -2,7 +2,7 @@ body {
    margin: 0;
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #90c67f;
+  background-color: #82ab7d;
   color: #333;
 }
 .about-text h1,
@@ -16,9 +16,16 @@ header {
 }
 
 nav {
-  background: #9dd19e;
-  padding: 1em;
   text-align: center;
+   background-color: #a0d6a0; 
+  padding: 1em 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 1em auto; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
@@ -92,11 +99,11 @@ a {
   padding: 2em;
   border-bottom: 1px solid #293325;
 
-  background-color: #cfffdc; /* White or light background */
+  background-color: #cfffdc; 
   padding: 1.5em;
   margin: 1.5em auto;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* soft shadow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   max-width: 90%;
 }
 
