@@ -1,0 +1,198 @@
+/* body {
+   margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #82ab7d;
+  color: #333;
+}
+.about-text h1,
+.about-text p {
+  font-weight: bold;
+}
+
+header {
+  background-color: #a8dcab;
+  padding: 1em 0;
+}
+
+nav {
+  text-align: center;
+   background-color: #a0d6a0; 
+  padding: 1em 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 1em auto; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+   margin: 0 15px;
+  color: #253d2c;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: #2e6f40;
+}
+/* About Section */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 2em;
+  gap: 2em;
+  background-color: #82ab7d;
+}
+
+.about-text {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+} */
+
+/* Footer */
+/* footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #a8dcab;
+  color: #253d2c;
+  font-size: 0.9em;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  transition: color 0.3s ease;
+} */
+/* .contact {
+  padding: 2em;
+  background: #f4f4f4;
+} */
+
+
+/* PROJECTS PAGE */
+/* .project {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  border-bottom: 1px solid #293325;
+
+  background-color: #cfffdc; 
+  padding: 1.5em;
+  margin: 1.5em auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  max-width: 90%;
+}
+
+.project img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 2em;
+}
+
+.project div {
+  flex: 1;
+} */
+
+/* EXPERIENCE PAGE */
+/* .experience-list {
+  list-style-type: none;
+  padding: 2em;
+}
+
+.experience-list li {
+  margin-bottom: 1.5em;
+  background: #cfffdc;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+} */
+
+/* CONTACT AND RESUME PAGE */
+/* .contact-details {
+  padding: 0.75em;
+  background-color: #cfffdc;
+  border-radius: 10px;
+  margin: 0.75em;
+}
+
+.resume-download {
+  text-align: center;
+  margin: 2em;
+}
+
+.resume-download a {
+  background: #39542c;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  text-decoration: none;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text, .about-image {
+    max-width: 100%;
+  }
+} */
+
+
+/* #about-text::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+.about-image img {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+} */

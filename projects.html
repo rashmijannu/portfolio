@@ -6,6 +6,15 @@
   <title>Projects</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+<script>
+  const toggleMode = () => {
+    document.body.classList.toggle("dark");
+
+    const icon = document.getElementById("dark-toggle-icon");
+    icon.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  };
+</script>
+
 <body>
   <header>
      <nav>
@@ -13,6 +22,10 @@
       <a href="projects.html"><strong>Projects</strong></a>
       <a href="experience.html"><strong>Experience</strong></a>
       <a href="contact.html"><strong>Contact</strong></a>
+      <button onclick="toggleMode()" id="dark-toggle-icon" style="background:none; border:none; font-size:1.2em; cursor:pointer;">
+  🌙
+</button>
+
     </nav>
   </header>
 
@@ -31,7 +44,20 @@
         </ol></p>
       </div>
     </section>
-
+    <!--------------------------------------------------------------------------------------------------------->
+     <section class="project">
+      <img src="assets/project4.png" alt="Project 4" />
+      <div>
+        <a href="https://github.com/rashmijannu/Smart-Home-VLAN-Simulation" target="_blank"><h2>Smart Home VLAN Simulation (May 25-Jun 25)</h2></a>
+        <h4>TechStack: Cisco Packet Tracer</h4>
+        <p> <ol>
+            <li>Implemented a smart home network simulation using Cisco Packet Tracer with VLAN segmentation and interVLAN routing.</li>
+            <li>Configured static IP addressing, VLANs, and SVI on a multilayer switch for secure traffic isolation.</li>
+            <li>Demonstrated network topology design, IP subnetting, and Layer 2/3 device configuration.</li>
+        </ol></p>
+      </div>
+    </section>
+     <!--------------------------------------------------------------------------------------------------------->
     <section class="project">
       <img src="assets/project2.png" alt="Project 2" />
       <div>
@@ -44,7 +70,7 @@
         </ol></p>
       </div>
     </section>
-
+ <!--------------------------------------------------------------------------------------------------------->
     <section class="project">
       <img src="assets/project3.jpg" alt="Project 3" />
       <div>
@@ -52,8 +78,7 @@
         <!-- <h2> Secure mail server deployment with malware protection (Nov 23- Mar 24)</h2> -->
         <h4>TechStack: Postfix | Dovecot | ClamAV</h4>
         <p> <ol>
-            <li>Built and deployed a secure Linux-based email server using Postfix and Dovecot with spam filtering, leveraging TCP/IP
-protocols</li>
+            <li>Built and deployed a secure Linux-based email server using Postfix and Dovecot with spam filtering, leveraging TCP/IP protocols</li>
             <li>Implemented authentication via SPF, DKIM, and DMARC to prevent spoofing/phishing.</li>
             <li>Integrated ClamAV for real-time malware scanning, improving system reliability.</li>
         </ol></p>
